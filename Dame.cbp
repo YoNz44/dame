@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Damier.cpp" />
+		<Unit filename="Damier.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
