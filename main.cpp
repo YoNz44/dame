@@ -7,5 +7,7 @@ int main()
 {
     Damier damier;
 
+    cout<<"Hello world!"<<endl;
+
     return 0;
 }
