@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1508421512 source:c:\users\yo44\documents\github\dame\damier.cpp
+	"Damier.h"
+	<iostream>
+	"Piece.h"
+
+1508421482 c:\users\yo44\documents\github\dame\damier.h
+	"Piece.h"
+
+1508422264 source:c:\users\yo44\documents\github\dame\main.cpp
+	<iostream>
+	"Damier.h"
+	"Piece.h"
+	"Pion.h"
+	"Joueur.h"
+	"Partie.h"
+
+1508518700 source:c:\users\yo44\documents\github\dame\piece.cpp
+	"Piece.h"
+
+1508518707 c:\users\yo44\documents\github\dame\piece.h
+	"Joueur.h"
+	"Coordonée.h"
+	<iostream>
+	<string>
+
+1508420397 c:\users\yo44\documents\github\dame\pion.h
+	"Piece.h"
+	<iostream>
+	<string>
+
+1508353989 source:c:\users\yo44\documents\github\dame\pion.cpp
+	"Pion.h"
+
+1508518945 c:\users\yo44\documents\github\dame\joueur.h
+	<iostream>
+	<string>
+	<vector>
+	"Piece.h"
+	"Coordonée.h"
+
+1508518350 source:c:\users\yo44\documents\github\dame\joueur.cpp
+	"Joueur.h"
+
+1508422695 c:\users\yo44\documents\github\dame\partie.h
+	"Joueur.h"
+
+1508423633 source:c:\users\yo44\documents\github\dame\partie.cpp
+	"Partie.h"
+	"Joueur.h"
+	<iostream>
+
+1508516653 source:c:\users\yo44\documents\github\dame\coordonée.cpp
+	"Coordonée.h"
+
+1508516532 c:\users\yo44\documents\github\dame\coordonée.h
+

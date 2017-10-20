@@ -13,6 +13,8 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="../dame" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +24,8 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="../dame" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -34,6 +38,10 @@
 		</Compiler>
 		<Unit filename="Damier.cpp" />
 		<Unit filename="Damier.h" />
+		<Unit filename="Piece.cpp" />
+		<Unit filename="Piece.h" />
+		<Unit filename="Pion.cpp" />
+		<Unit filename="Pion.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
