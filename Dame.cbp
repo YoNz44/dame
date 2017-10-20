@@ -36,8 +36,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Coordonée.cpp" />
+		<Unit filename="Coordonée.h" />
 		<Unit filename="Damier.cpp" />
 		<Unit filename="Damier.h" />
+		<Unit filename="Joueur.cpp" />
+		<Unit filename="Joueur.h" />
+		<Unit filename="Partie.cpp" />
+		<Unit filename="Partie.h" />
 		<Unit filename="Piece.cpp" />
 		<Unit filename="Piece.h" />
 		<Unit filename="Pion.cpp" />

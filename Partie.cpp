@@ -17,5 +17,7 @@ Partie::Partie()
     cin >> nomjoueur2;
     Joueur J2(nomjoueur2);
 
+    J1.AfficherPositionPiece();
+    J2.AfficherPositionPiece();
 
 }

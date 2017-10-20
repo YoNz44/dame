@@ -11,6 +11,7 @@
 
 using namespace std;
 
+
 class Piece;
 class Joueur
 {
@@ -19,12 +20,18 @@ class Joueur
         Joueur(string NomJoueur);
         string getnomJoueur() const;
         vector<Piece> getPieceJoueur() const;
+        int getIdJoueur() const;
+        void initPionJoueur1();
+        void initPionJoueur2();
+        void AfficherPositionPiece();
 
     protected:
 
     private:
         string m_NomduJoueur;
         vector<Piece> m_listepiece;
+        static int m_numerojoueur;
+        int m_idjoueur;
 
 
 

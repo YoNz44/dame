@@ -13,10 +13,11 @@ class Piece
     public:
         Piece();
         Piece(Coordonee X);
+        void infoPiece();
 
     protected:
         Coordonee *m_deplacment;
-
+        Coordonee m_position;
 
 
     private:

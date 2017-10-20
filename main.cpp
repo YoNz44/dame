@@ -12,7 +12,7 @@ int main()
     Damier damier;
     Partie partie;
 
-    //damier.AfficherDamier();
+
 
 
     return 0;
