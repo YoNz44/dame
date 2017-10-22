@@ -2,7 +2,7 @@
 #define PIECE_H
 
 #include "Joueur.h"
-#include "Coordonée.h"
+#include "Coordonee.h"
 
 #include <iostream>
 #include <string>
